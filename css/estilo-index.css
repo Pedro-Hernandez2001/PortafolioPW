@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.central {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.ITO, .TECNM {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ITO {
+    position: absolute;
+    right: 20px;
+}
+
+.TECNM {
+    position: absolute;
+    left: 20px;
+}
+
+.ITO img, .TECNM img {
+    width: 100px;
+    height: auto;
+}
+
+.Datos {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Datos h1, .Datos h2 {
+    margin: 10px 0;
+    font-size: 18px;
+    list-style: none;
+}
+
+.Datos h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Datos h2::before {
+    content: "";
+}
