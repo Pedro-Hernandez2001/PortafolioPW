@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(149, 252, 204);
+    justify-content: center;
+    margin: 20%;
+}
+
+.contenedor {
+    width: 310px;
+    height: 440px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 60px 50px 0px 250px;
+}
+
+.imagen {
+    width: 320px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.informacion {
+    margin-bottom: 20px;
+}
+
+.nombre {
+    margin: 10px 0;
+}
+
+.parrafo {
+    color: #4b4747;
+    margin: 0 0 15px 0;
+}
+
+.Seleccion {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Seleccion select {
+    display: flex;
+    width: 45%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+.precio {
+    display: flex;
+
+}
+
+#precio {
+    margin: 0;
+}
+
+button {
+
+    background: linear-gradient(to right, rgb(16, 151, 50), rgb(38, 243, 48));
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 0px 0px 65px;
+
+}
+
+button {
+    background-color: #3cb753;
+}
